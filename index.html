@@ -49,7 +49,7 @@
 				  <img class="card-img-top" src="http://via.placeholder.com/320x150" alt="Card image cap">
 				  <div class="card-body">
 				    <h4 class="card-title">Products</h4>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. <a href="tel:Call: 1231231234">Call: 1231231234</a></p>
+				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. <a href="tel:1231231234">Call: 1231231234</a></p>
 				    <a href="#" class="btn btn-primary">Go somewhere</a>
 				  </div>
 				</div>
@@ -194,11 +194,9 @@
 		    campaignNumber = numbers[i].number;
 		  }
 		}
-        
         document.onreadystatechange = function () {
         	document.body.innerHTML = document.body.innerHTML.replace(/1231231234/g,campaignNumber);
         }
-		
 	</script>
 </body>
 </html>
